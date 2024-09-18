@@ -1,8 +1,10 @@
-import person from '../../../assets/about4.jpeg'
+
+import profile2 from '../../../assets/profile 2.jpg'
+// import person5 from '../../../assets/WhatsApp Image 2024-09-08 at 20.55.07_7d1dfe2f.jpg'
 
 const AboutMe = () => {
     return (
-        <div className='bg-[#232325] text-white py-10  h-auto' id='about'>
+        <div className='bg-[#232325] text-white py-10  h-auto ' id='about '>
 
 
 
@@ -11,8 +13,8 @@ const AboutMe = () => {
                 {/* image  */ }
                 <div className=''>
                     <div className='  w-auto md:w-[300px] lg:w-[400px]  h-full'>
-                        <img className=' object-cover h-[300px] rounded-xl  filter grayscale brightness-50'
-                            src={ person } alt="profile pic" />
+                        <img className=' object-cover px-2 w-[400px] h-[300px] rounded-xl  filter grayscale brightness-50'
+                            src={ profile2 } alt="profile pic" />
                     </div>
                 </div>
 
@@ -21,7 +23,7 @@ const AboutMe = () => {
                     <div className='p-2'>
                         <div className='text-gray-300 my-3'>
                             <h3 className='text-4xl font-semibold mb-5 '>About<span className='primary-text'>Me</span></h3>
-                            <p className='leading-7 text-justify w-11/12 mx-auto'>Hello i am sagor, mainly i am a web developer . also a logo designer . now i am a student of ulab university location Mohammad Pur ,minabazarHello i am sagor, mainly i am a web developer . also a logo designer . now i am a student of ulab university location Mohammad Pur ,minabazar</p>
+                            <p className='leading-7 text-justify w-11/12 mx-auto'>"Hello! My name is AR Sagor and I'm a <span>frontend </span>web developer currently studying for my Bachelor of Science in Engineering. I'm passionate about creating visually appealing and user-friendly web experiences. As a student, I'm continuously learning and eager to apply my knowledge in real-world projects. I'm excited to contribute my skills in HTML, CSS, JavaScript,react and modern frontend frameworks (tailwind css and bootstrap) to build engaging and responsive websites. I'm looking forward to collaborating and growing in this field!" </p>
                         </div>
                     </div>
 

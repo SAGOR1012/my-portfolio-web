@@ -1,7 +1,8 @@
 
 import { TypeAnimation } from 'react-type-animation';
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa"; /* icon */
-import profile from '../../assets/profile.png'
+import profile2 from '../../assets/profile 2.jpg'
+// import profile2 from '../../assets/WhatsApp Image 2024-09-08 at 20.55.07_7d1dfe2f.jpg'
 import {
     DiJavascript1,
     DiReact,
@@ -16,19 +17,19 @@ import { SiExpress } from "react-icons/si";
 
 const Hero = () => {
     return (
-        <div className='max-w-[1200px] h-[90vh] md:h-auto mx-auto flex  md:flex-row justify-between  md:items-center ' id='home'>
-            <div className="max-w-[300px] md:max-w-[500px] font-bold mt-20 " >
+        <div className=' max-w-[1200px] h-[90vh] md:h-auto mx-auto flex  items-center   flex-col-reverse  md:flex-row md:justify-around md:px-5  lg:justify-between  ' id='home'>
+            <div className="max-w-[300px] md:max-w-[500px]    font-bold mt-20 " >
 
-                <div className="ml-4  ">
-                    <div className='mb-3  md:w-[550px]'>
-                        <h3 className='text-gray-200 md:text-3xl'>Assalamu alaikum , i am AR <span className='primary-color'>SAGOR</span></h3>
+                <div className=" w-full">
+                    <div className='mb-3  md:w-[100%] '>
+                        <h3 className='text-gray-200 lg:text-3xl'>Assalamu alaikum , i am AR <span className='primary-color'>SAGOR</span></h3>
                     </div>
                     <div className=' primary-color font-bold text-4xl md:text-6xl'>
                         <h1>Frontend Web Developer</h1>
                     </div>
 
                     <div className='mt-5 '>
-                        <h4 className='text-gray-500 text-xl'>With a good experience
+                        <h4 className='text-gray-500 w-full  text-sm h-10 md:text-xl'>With a good experience
                             <span> {/* For animations text (react type animation) */ }
                                 <TypeAnimation
                                     sequence={ [
@@ -72,7 +73,7 @@ const Hero = () => {
 
             </div>
             {/* Skills */ }
-            <div className='  p-5 md:w-96 absolute top-[550px] md:top-[400px] lg:top-[550px] left-[39px] md:left-[200px] lg:left-[350px] xl:left-[700px]' >
+            <div className='hidden  p-5 md:w-96 absolute top-[550px] md:top-[400px] lg:top-[550px] left-[39px] md:left-[200px] lg:left-[350px] xl:left-[700px]' >
                 <div className="text-2xl md:text-5xl">
                     <div className="flex gap-2 md:gap-4">
                         <DiHtml5 className="text-orange-600" />
@@ -88,9 +89,11 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className='ml-5 ' >
-                <img className=' md:max-w-full md:h-full' src={ profile } alt="profile pic" />
+            <div>hello</div>
+            <div className="w-56 flex justify-center lg:w-72 rounded-xl overflow-hidden mt-10 outline outline-purple-900 outline-offset-4 shadow-lg shadow-violet-900">
+                <img className='w-[100%] h-[100%]' src={ profile2 } />
             </div>
+
         </div>
     );
 };

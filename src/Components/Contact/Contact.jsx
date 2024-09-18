@@ -5,7 +5,7 @@ import { MdOutlineEmail } from "react-icons/md";
 const Contact = () => {
 
     return (
-        <div className="flex justify-center my-2 h-full sm:h-[70vh] items-center" id="contact">
+        <div className="flex justify-center my-2 h-full sm:h-[70vh] items-center " id="contact">
             <div className=''>
                 <div className="">
                     <div className='grid grid-cols-l md:grid-cols-2 '>
@@ -55,7 +55,7 @@ const Contact = () => {
                 </div>
             </div>
             {/* whats up logo */ }
-            <a href=" https://wa.me/+8801639136200?text=Hi Sagor" target="_blank" className="fixed bottom-6 right-6 z-50 hover:scale-105 hover:transition">
+            <a href=" https://wa.me/+8801639136200?text=Hi Sagor" target="_blank" className="fixed bottom-6 right-4 z-50  hover:scale-105 hover:transition">
                 <i className="text-green-500 text-5xl lg:text-7xl cursor-pointer"><FaWhatsapp /></i>
             </a>
         </div >
